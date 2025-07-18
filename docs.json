@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Stack Events Docs",
   "colors": {
     "primary": "#2856a6",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#3c5e99",
+    "dark": "#1e2f5e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
