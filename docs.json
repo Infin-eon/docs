@@ -101,8 +101,8 @@
   ],
   "primary": {
     "type": "button",
-    "label": "Dashboard",
-    "href": "https://stack.events"
+    "label": "Live Demo",
+    "href": "https://demo.stack.events"
   }
 },
 "footer": {
