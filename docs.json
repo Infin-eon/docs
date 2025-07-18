@@ -70,22 +70,32 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+      {
+        "anchor": "Live Demo",
+        "href": "https://demo.stack.events",
+        "icon": "display"
+      },
+      {
+        "anchor": "Support",
+        "href": "https://stack.events/support",
+        "icon": "envelope"
+      },
+      {
+        "anchor": "Plans",
+        "href": "https://stack.events/plans",
+        "icon": "dollar-sign"
+      },
+      {
+        "anchor": "Terms",
+       "href": "https://www.stack.events/terms-conditions",
+        "icon": "scale-balanced"
+      },
+      {
+        "anchor": "Privacy",
+        "href": "https://www.stack.events/privacy-policy",
+          "icon": "shield"
+      }
+    ]
     }
   },
   "logo": {
