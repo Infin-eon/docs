@@ -8,66 +8,162 @@
     "dark": "#1e2f5e"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
+"navigation": {
+  "tabs": [
+    {
+      "tab": "Media Essentials",
+      "groups": [
+        {
+          "group": "Getting Started",
+          "pages": [
+            "media/getting-started/logging-in",
+            "media/getting-started/signing-up",
+            "media/getting-started/resetting-password",
+            "media/getting-started/navigation-overview",
+            "media/getting-started/switching-products"
+          ]
+        },
+        {
+          "group": "Events",
+          "pages": [
+            "media/events/dashboard-overview",
+            "media/events/creating-events",
+            "media/events/editing-events",
+            "media/events/deleting-events",
+            "media/events/calendar-navigation",
+            "media/events/event-types",
+            "media/events/restricting-events"
+          ]
+        },
+        {
+          "group": "Users & Signups",
+          "pages": [
+            "media/users/assigning-students",
+            "media/users/signing-up-for-event",
+            "media/users/unsigning-from-event",
+            "media/users/viewing-participants",
+            "media/users/filtering-event-users"
+          ]
+        },
+        {
+          "group": "Submissions",
+          "pages": [
+            "media/submissions/creating-submissions",
+            "media/submissions/uploading-images",
+            "media/submissions/pasting-texts",
+            "media/submissions/linking-google-docs",
+            "media/submissions/viewing-submissions",
+            "media/submissions/downloading-images",
+            "media/submissions/reviewing-submissions",
+            "media/submissions/deleting-submissions"
+          ]
+        },
+        {
+          "group": "Search & Profiles",
+          "pages": [
+            "media/search/advanced-search",
+            "media/search/recent-submissions",
+            "media/search/search-keywords-guide",
+            "media/profiles/viewing-your-profile",
+            "media/profiles/viewing-other-profiles",
+            "media/profiles/leaderboard-overview",
+            "media/profiles/leaderboard-algorithm",
+            "media/profiles/how-to-rank-up"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Equipment Checkout",
+      "groups": [
+        {
+          "group": "Setup & Basics",
+          "pages": [
+            "checkout/setup/setup-computer",
+            "checkout/setup/view-inventory",
+            "checkout/setup/view-logs"
+          ]
+        },
+        {
+          "group": "Managing Gear",
+          "pages": [
+            "checkout/gear/add-equipment-type",
+            "checkout/gear/delete-equipment-type",
+            "checkout/gear/add-item",
+            "checkout/gear/edit-item",
+            "checkout/gear/remove-item"
+          ]
+        },
+        {
+          "group": "Checkout Process",
+          "pages": [
+            "checkout/process/checkout-item",
+            "checkout/process/manual-checkout",
+            "checkout/process/get-barcodes",
+            "checkout/process/download-barcodes",
+            "checkout/process/checkin-item",
+            "checkout/process/mark-missing"
+          ]
+        },
+        {
+          "group": "Tracking & History",
+          "pages": [
+            "checkout/tracking/student-history"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Admin Tools",
+      "groups": [
+        {
+          "group": "Developer Menu",
+          "pages": [
+            "admin/dev-menu-overview",
+            "admin/configuring-story-types",
+            "admin/configuring-event-types",
+            "admin/global-site-settings"
+          ]
+        },
+        {
+          "group": "Managing Submissions & Users",
+          "pages": [
+            "admin/managing-submissions",
+            "admin/editing-user-info"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Support & Billing",
+      "groups": [
+        {
+          "group": "Account & Plans",
+          "pages": [
+            "support/plans-overview",
+            "support/how-billing-works",
+            "support/free-trial-info",
+            "support/cancel-refund-policy"
+          ]
+        },
+        {
+          "group": "Legal",
+          "pages": [
+            "support/terms-of-service",
+            "support/privacy-policy"
+          ]
+        },
+        {
+          "group": "Help & FAQ",
+          "pages": [
+            "support/faq",
+            "support/glossary",
+            "support/contacting-support"
+          ]
+        }
+      ]
+    }
+  ],
     "global": {
       "anchors": [
       {
