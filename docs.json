@@ -114,27 +114,28 @@
         }
       ]
     },
+{
+  "tab": "Admin Tools",
+  "groups": [
     {
-      "tab": "Admin Tools",
-      "groups": [
-        {
-          "group": "Developer Menu",
-          "pages": [
-            "admin/dev-menu-overview",
-            "admin/configuring-story-types",
-            "admin/configuring-event-types",
-            "admin/global-site-settings"
-          ]
-        },
-        {
-          "group": "Managing Submissions & Users",
-          "pages": [
-            "admin/managing-submissions",
-            "admin/editing-user-info"
-          ]
-        }
+      "group": "Developer Menu",
+      "pages": [
+        "admin/dev-menu-overview",
+        "admin/configuring-story-types",
+        "admin/configuring-event-types",
+        "admin/global-site-settings"
       ]
     },
+    {
+      "group": "Managing Submissions & Users",
+      "pages": [
+        "admin/managing-submissions",
+        "admin/editing-user-info",
+        "admin/importing-users"
+      ]
+    }
+  ]
+},
     {
       "tab": "Support & Billing",
       "groups": [
