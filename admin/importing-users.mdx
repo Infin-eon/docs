@@ -1,49 +1,103 @@
 ---
-title: "Hello World"
-description: "A simple example MDX page to test your Stack documentation setup."
+title: "Importing Users"
+description: "How to bulk import students into your Stack Events instance with a CSV file."
 ---
 
-# Hello, World!
+# Importing Users
 
-Welcome to your first Stack Events documentation page.
+Stack lets you quickly bulk upload student accounts using a simple CSV file.
 
-This is a sample `.mdx` file to help you get started with writing docs in [Markdown](https://www.markdownguide.org/) + JSX.
-
----
-
-## What You Can Do
-
-- Write clean, readable docs using Markdown
-- Embed components, icons, or interactive elements using MDX
-- Organize pages with frontmatter and directory structure
+Whether it's the start of a new year or you're just adding more students, here's how to import users the right way.
 
 ---
 
-## Example Syntax
+## Step 1: Format Your CSV
 
-Here’s some example formatting:
+Your file **must follow this format** with these two exact columns:
 
-**Bold**  
-*Italic*  
-[Link](https://stack.events)
+```csv
+student_id,email
+42069,blake.johnson@stackhs.org
+12345,emma.thompson@stackhs.org
+86753,sarah.lee@stackhs.org
+90013,tyler.nguyen@stackhs.org
+50505,grace.henderson@stackhs.org
+13370,lucas.martinez@stackhs.org
+24680,julia.kim@stackhs.org
+77777,noah.patel@stackhs.org
+10101,madison.clark@stackhs.org
+88888,elijah.brown@stackhs.org
+```
 
-> Quotes like this are great for tips or notes.
+You can [download our sample CSV](https://demo.stack.events/assets/data/sample_data.csv) to use as a template.
+
+We recommend creating your CSV using:
+
+- [Google Sheets](https://sheets.google.com) — free and shareable
+- [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel)
+- Or any spreadsheet editor that supports CSV export
 
 ---
 
-## Next Steps
+## Step 2: Upload Your File
 
-Try editing this page or creating a new one in your `docs/` folder.
+Visit the **Import Users** tool:  
+[`/dev/users/import`](/dev/users/import)
 
-You can now add this page to your navigation using the `docs.json` config:
+Upload your file in the field provided. You’ll then see a preview of the first 10 rows of your data.
 
-```json
-{
-  "tab": "Getting Started",
-  "groups": [
-    {
-      "group": "Basics",
-      "pages": ["getting-started/hello-world"]
-    }
-  ]
-}
+---
+
+## Step 3: Choose Whether to Wipe Previous Imports
+
+You'll see a checkbox labeled:
+
+**“Wipe all previous imported users”**  
+This deletes every previously imported student record before adding your new list.
+
+**Use this if:**
+
+- You’re starting fresh (new semester, new year, new class)
+- You want to remove *all* existing imported students and replace them
+
+**Leave it unchecked if:**
+
+- You’re adding a few more students to an existing list
+- You want to keep your current imports and just add more
+
+---
+
+## ⚠️ Dangers of Wiping All Users
+
+If you check the **wipe all previous users** box, **none of your existing students will be able to sign up or log in** — unless they’re included in the new CSV.
+
+Once wiped, those students will see an error that their email isn't recognized during sign-up.
+
+Make sure you only use this option when you're truly resetting your user list.
+
+---
+
+## Step 4: Preview & Import
+
+After uploading, Stack will show you a preview table of your CSV contents (first 10 rows).
+
+Check that:
+
+- Every row has a valid `student_id` and `email`
+- No fields are missing or malformed
+
+Then hit **Import All** to finalize.
+
+---
+
+## After Importing
+
+Imported users can now go to your instance URL and create an account using their assigned email address.
+
+If a student can’t sign up:
+
+- Double-check their email is listed in the import
+- Try re-uploading your CSV
+- Make sure you're using the correct instance subdomain
+
+Still need help? [Contact Support](https://stack.events/support) and we can walk you through the process.
