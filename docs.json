@@ -136,35 +136,37 @@
     }
   ]
 },
+{
+  "tab": "Support & Billing",
+  "groups": [
     {
-      "tab": "Support & Billing",
-      "groups": [
-        {
-          "group": "Account & Plans",
-          "pages": [
-            "support/plans-overview",
-            "support/how-billing-works",
-            "support/free-trial-info",
-            "support/cancel-refund-policy"
-          ]
-        },
-        {
-          "group": "Legal",
-          "pages": [
-            "support/terms-of-service",
-            "support/privacy-policy"
-          ]
-        },
-        {
-          "group": "Help & FAQ",
-          "pages": [
-            "support/faq",
-            "support/glossary",
-            "support/contacting-support"
-          ]
-        }
+      "group": "Support",
+      "pages": [
+        "support/support-account",
+        "support/contacting-support",
+        "support/status-page",
+        "support/faq",
+        "support/glossary"
+      ]
+    },
+    {
+      "group": "Billing & Plans",
+      "pages": [
+        "support/plans-overview",
+        "support/how-billing-works",
+        "support/free-trial-info",
+        "support/cancel-refund-policy"
+      ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "support/terms-of-service",
+        "support/privacy-policy"
       ]
     }
+  ]
+}
   ],
     "global": {
       "anchors": [
